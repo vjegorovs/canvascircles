@@ -20,6 +20,7 @@ export function setupCounter(element: HTMLElement) {
   document.getElementById('decreaseByOne')?.addEventListener('click', () => setCounter(counter - 1));
   document.getElementById('increaseByTwo')?.addEventListener('click', () => setCounter(counter + 2));
 
+
   //TIP In the app running in the browser, you’ll find that clicking <b>-2</b> doesn't work. To fix that, rewrite it using the code from lines 19 - 21 as examples of the logic.
   document.getElementById('decreaseByTwo')
 
